@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: teman-gudang
+    runtime: docker
+    plan: free
+    healthCheckPath: /up
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: "false"
+      - key: APP_KEY
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: DB_CONNECTION
+        value: pgsql
+      - key: SESSION_SECURE_COOKIE
+        value: "true"
+      - key: OPERATOR_NAME
+        value: "Petugas Gudang"
+      - key: OPERATOR_EMAIL
+        sync: false
+      - key: OPERATOR_PASSWORD
+        sync: false
