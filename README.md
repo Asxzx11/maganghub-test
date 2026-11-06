@@ -10,16 +10,6 @@
 - Pengelolaan daftar alat dan teknisi. Pengarsipan tidak menghapus riwayat.
 - Antarmuka berbahasa Indonesia dengan tombol besar dan formulir sederhana untuk komputer bersama di pos gudang.
 
-## Pertanyaan untuk Pak Anto (urut paling penting)
-
-1. Apakah yang perlu dicatat hanya alat yang dipinjam, atau sparepart habis pakai juga perlu dicatat jumlah stoknya?
-2. Siapa yang boleh mencatat peminjaman dan pengembalian pada setiap shift? Apakah nama petugas perlu dicatat?
-3. Apakah satu alat hanya boleh dipinjam satu per satu, atau ada alat yang jumlahnya banyak dan perlu dicatat sebagai stok?
-4. Berapa lama peminjaman dianggap terlambat, dan apakah perlu tanggal rencana kembali untuk setiap peminjaman?
-5. Informasi apa yang perlu dicatat ketika alat rusak atau dikembalikan dalam kondisi berbeda?
-6. Data apa yang biasa dipakai untuk mengenali alat dan teknisi (kode inventaris, bagian, atau nama panggilan)?
-7. Apakah komputer pos selalu tersambung ke jaringan, dan apakah aplikasi akan digunakan hanya di komputer gudang?
-
 ## Asumsi sementara
 
 - MVP hanya melacak alat yang dapat dipinjam; stok sparepart habis pakai belum dikelola.
