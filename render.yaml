@@ -1,12 +1,14 @@
 services:
   - type: web
-    name: teman-gudang
+    name: Gudang-Pak Anto
     runtime: docker
     plan: free
     healthCheckPath: /up
     envVars:
       - key: APP_ENV
         value: production
+      - key: APP_NAME
+        value: "Gudang Pak Anto"
       - key: APP_DEBUG
         value: "false"
       - key: APP_KEY

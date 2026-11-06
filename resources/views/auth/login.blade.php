@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Masuk — Teman Gudang</title>
+    <title>Masuk — Gudang Pak Anto</title>
     <style>
         :root{font-family:Arial,Helvetica,sans-serif;color:#1d2939;background:#f4f6f8;font-size:16px}
         *{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:20px}
@@ -19,7 +19,7 @@
 </head>
 <body>
 <main class="card">
-    <h1>Masuk ke Teman Gudang</h1>
+    <h1>Masuk ke Gudang Pak Anto</h1>
     <p class="intro">Silakan masuk dengan akun petugas gudang untuk mengelola peminjaman alat.</p>
 
     @if ($errors->any())

@@ -1,4 +1,4 @@
-# Teman Gudang — MVP pencatatan peminjaman alat
+# Gudang Pak Anto — MVP pencatatan peminjaman alat
 
 ## Yang dibuat
 
@@ -28,4 +28,3 @@
 - Notifikasi WhatsApp/email, barcode, laporan ekspor, dan pengingat otomatis: tidak dibutuhkan untuk membuktikan alur pencatatan dasar.
 - Hukuman atau penilaian teknisi: tidak sejalan dengan tujuan Pak Anto yang ingin visibilitas, bukan pengawasan berlebihan.
 - Fitur multi-gudang dan sinkronisasi offline: perlu kebutuhan dan infrastruktur jaringan yang belum diketahui.
-

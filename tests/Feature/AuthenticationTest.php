@@ -60,7 +60,7 @@ class AuthenticationTest extends TestCase
     {
         $this->get(route('login'))
             ->assertOk()
-            ->assertSee('Masuk ke Teman Gudang')
+            ->assertSee('Masuk ke Gudang Pak Anto')
             ->assertDontSee('Daftar');
     }
 

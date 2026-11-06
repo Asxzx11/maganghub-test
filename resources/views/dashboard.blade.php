@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Teman Gudang — Peminjaman Alat</title>
+    <title>Gudang Pak Anto — Peminjaman Alat</title>
     <style>
         :root{font-family:Arial,Helvetica,sans-serif;color:#1d2939;background:#f4f6f8;font-size:16px}
         *{box-sizing:border-box}body{margin:0}button,input,select,textarea{font:inherit}
@@ -38,7 +38,7 @@
 </head>
 <body>
 <header class="topbar">
-    <div class="brand">Teman Gudang <small>Pencatatan peminjaman alat</small></div>
+    <div class="brand">Gudang Pak Anto <small>Pencatatan peminjaman alat</small></div>
     <div class="top-actions">
         <div class="today">{{ now()->locale('id')->translatedFormat('l, d F Y') }}</div>
         <form method="POST" action="{{ route('logout') }}">
