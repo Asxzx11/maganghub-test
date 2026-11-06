@@ -64,6 +64,15 @@ class AuthenticationTest extends TestCase
             ->assertDontSee('Daftar');
     }
 
+    public function test_login_form_uses_https_when_behind_a_tls_terminating_proxy(): void
+    {
+        $this->get(route('login'), [
+            'X-Forwarded-Proto' => 'https',
+            'X-Forwarded-Port' => '443',
+        ])->assertOk()
+            ->assertSee('action="https://localhost/login"', false);
+    }
+
     public function test_operator_account_can_be_created_with_a_hidden_password_prompt(): void
     {
         $this->artisan('users:create', [
